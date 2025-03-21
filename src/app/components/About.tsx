@@ -23,7 +23,7 @@ export default function About() {
           </div>
           <div className="relative h-[400px]">
             <Image
-              src="/images/about-preview.jpg"
+              src="https://images.unsplash.com/photo-1600185365487-76b8b68311af?q=80&w=2070&auto=format&fit=crop"
               alt="Raj Palace & Convention"
               fill
               className="object-cover rounded-lg"

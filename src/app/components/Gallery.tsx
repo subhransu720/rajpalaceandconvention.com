@@ -4,10 +4,22 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const galleryImages = [
-  { src: '/images/gallery-1.jpg', alt: 'Wedding Ceremony' },
-  { src: '/images/gallery-2.jpg', alt: 'Corporate Event' },
-  { src: '/images/gallery-3.jpg', alt: 'Social Gathering' },
-  { src: '/images/gallery-4.jpg', alt: 'Conference Room' }
+  { 
+    src: 'https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2070&auto=format&fit=crop', 
+    alt: 'Wedding Ceremony' 
+  },
+  { 
+    src: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2070&auto=format&fit=crop', 
+    alt: 'Corporate Event' 
+  },
+  { 
+    src: 'https://images.unsplash.com/photo-1511795409834-432f31147b22?q=80&w=2070&auto=format&fit=crop', 
+    alt: 'Social Gathering' 
+  },
+  { 
+    src: 'https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop', 
+    alt: 'Conference Room' 
+  }
 ];
 
 export default function Gallery() {
