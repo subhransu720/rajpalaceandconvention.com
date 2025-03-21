@@ -1,4 +1,11 @@
 import type { Metadata } from 'next'
+import Hero from './components/Hero'
+import About from './components/About'
+import Services from './components/Services'
+import Gallery from './components/Gallery'
+import Contact from './components/Contact'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 export const metadata: Metadata = {
   title: 'Raj Palace and Convention',
@@ -7,10 +14,16 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <h1 className="text-4xl font-bold">Welcome to Raj Palace and Convention</h1>
-      </div>
-    </main>
+    <>
+      <Navbar />
+      <main className="flex min-h-screen flex-col">
+        <Hero />
+        <About />
+        <Services />
+        <Gallery />
+        <Contact />
+      </main>
+      <Footer />
+    </>
   )
 } 
