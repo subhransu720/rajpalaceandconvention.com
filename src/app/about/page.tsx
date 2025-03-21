@@ -5,11 +5,6 @@ import Footer from '../components/Footer';
 import Image from 'next/image';
 import { FaCheck, FaUsers, FaCalendarAlt, FaMedal, FaHandshake, FaBed, FaUtensils, FaWifi, FaParking, FaAccessibleIcon } from 'react-icons/fa';
 
-export const metadata = {
-  title: 'About Us | Raj Palace & Convention',
-  description: 'Learn about Raj Palace & Convention - our history, mission, and values.',
-};
-
 export default function AboutPage() {
   return (
     <main>
@@ -265,4 +260,4 @@ export default function AboutPage() {
       <Footer />
     </main>
   );
-} 
+}
