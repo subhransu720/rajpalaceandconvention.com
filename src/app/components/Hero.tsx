@@ -1,13 +1,16 @@
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const Hero = () => {
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <img
+        <Image
           src="/images/hero-bg.jpg"
           alt="Raj Palace Background"
-          className="w-full h-full object-cover"
+          fill
+          className="object-cover"
+          priority
         />
         <div className="absolute inset-0 bg-black/50" />
       </div>
